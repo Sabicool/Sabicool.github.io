@@ -43,7 +43,7 @@ enableEmoji             = true
   [params.header]
     navbarTitle         = "Sab's Lab"
     dynamicTitles       = true
-    searchMenu          = true
+    searchMenu          = false
     shareMenu           = true
     languageMenu        = false
 
@@ -113,6 +113,13 @@ enableEmoji             = true
     url               = "blog"
     pre               = "<i class='far fa-newspaper'></i>"
     weight            = 3
+
+[[menu.main]]
+    name              = "Tags"
+    identifier        = "tags"
+    url               = "tags"
+    pre               = "<i class='far fa-bookmark'></i>"
+    weight            = 4
 
   [[menu.main]]
     name              = "Categories"

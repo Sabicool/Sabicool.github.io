@@ -7,7 +7,8 @@ layout = "about"
 +++
 
 As of 2020, I'm a medical student studying in Australia. This means
-I'm now in my 2nd year of medical school.
+I'm now in my 2nd year of medical school. However I consider myself
+defined by much more than this.
 
 # What I'm Working On
 

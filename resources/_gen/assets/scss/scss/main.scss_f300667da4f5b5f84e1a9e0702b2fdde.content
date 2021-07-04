@@ -1542,3 +1542,9 @@ figcaption {
   h2,
   h3 {
     page-break-after: avoid; } }
+
+code.has-jax {
+  -webkit-font-smoothing: antialiased;
+  background: inherit !important;
+  border: none !important;
+  font-size: 100%; }
