@@ -32,7 +32,7 @@ enableEmoji             = true
   hideEmptyStats        = false
 
   [params.meta]
-    description         = "Welcome to Sab's Lab where we discuss happiness, productivity, and the human condition"
+    description         = "Welcome to Sab's Lab where I write whatever I please"
     author              = "Sabiqul Hoque"
     favicon             = false
     svg                 = true
@@ -49,7 +49,7 @@ enableEmoji             = true
 
   [params.intro]
     header                = "Sab's Lab"
-    paragraph             = "Welcome to Sab's Lab where we discuss happiness, productivity, and the human condition"
+    paragraph             = "Welcome to Sab's Lab where I write whatever I please"
     rssIntro              = true
     socialIntro           = true
     hideWhenSingleColumn  = false
