@@ -6,7 +6,6 @@ date = "2021-06-01"
 layout = "about"
 +++
 
-# About
 I'm a 3rd year medical student studying in Australia. Saying this, my interests are not just limited to medicine and so this blog exists as a way for me to explore my own thoughts and showcase different insights on different interests of mine. My interests include (though, not limited to): ethics, sciences, mathematics, productivity and workflow, programming and philosophy.
 
 ## What I'm working on
