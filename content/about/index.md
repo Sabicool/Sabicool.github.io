@@ -7,19 +7,18 @@ layout = "about"
 +++
 
 # About
-I'm a 2nd year medical student studying in Australia. I don't believe you should be defined by your job or degree, so for me I don't consider myself defined by this. For one, I have this blog where I get to showcase my interests in other topics like chemistry, mathematics, productivity, programming and philosophy. Outside of this, I enjoy playing football, ultimate frisbee and the guitar. 
+I'm a 3rd year medical student studying in Australia. Saying this, my interests are not just limited to medicine and so this blog exists as a way for me to explore my own thoughts and showcase different insights on different interests of mine. My interests include (though, not limited to): ethics, sciences, mathematics, productivity and workflow, programming and philosophy.
 
 ## What I'm working on
 1. Getting through medicine and working on becoming a doctor in the near future
 2. On this website I write articles about productivity, medicine, and science
-3. I am in charge of IT for the medical and surgical society at my university
-3. Helping run a state conference for medical students
-4. I collaborate on medical research
+3. I am involved in some collaborative medical research
+4. I am part of some medical societies in roles such as IT director and treasurer
 
 ## Other Stuff
 1. At university I learnt to make, design and host websites
-2. I learned to write and typeset textbooks when I was 16 and have been writing technical books, papers and exams since
-3. I learnt to code aged 15 when I was making an automated sprinkler system that won me a young scientist's award among others (see [here if you so please](https://newsroom.unsw.edu.au/news/science-tech/‘smart-sprinkler’-wins-national-engineering-competition))
+2. I learned to write and typeset textbooks in 2018 and have been writing technical books, papers and exams since
+3. I began learning to code in 2016 and have won some engineering competitions when I was younger.
 
 ## Get in Touch
 1. In general the best way to get in contact is to use my [contact form](https://sabiqulhoque.me/contact/)
