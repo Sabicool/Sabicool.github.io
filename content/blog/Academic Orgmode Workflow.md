@@ -1,8 +1,8 @@
 +++
 title = "Academic Orgmode Workflow"
 date = 2021-12-25
-lastmod = 2021-12-27T04:36:49+08:00
-categories = ["notetaking"]
+lastmod = 2021-12-27T04:59:34+08:00
+categories = ["Notetaking"]
 draft = false
 tags = ["Emacs", "Research", "Workflow"]
 +++
