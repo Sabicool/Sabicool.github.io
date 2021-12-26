@@ -1,7 +1,7 @@
 +++
 title = "Academic Orgmode Workflow"
 date = 2021-12-25
-lastmod = 2021-12-27T04:59:34+08:00
+lastmod = 2021-12-27T05:14:25+08:00
 categories = ["Notetaking"]
 draft = false
 tags = ["Emacs", "Research", "Workflow"]
@@ -22,7 +22,9 @@ The other benefit is the ability to clip websites easily using an extension or b
 
 For the purpose of this blog post I shall be looking at [this article on clinical equipoise in research](https://www.bmj.com/content/359/bmj.j5787). Capturing it requires me to click on the addon to add it to my zotero library.
 
-{{< figure src="/ox-hugo/bmj.png" >}}
+<a id="org8d83037"></a>
+
+{{< figure src="/ox-hugo/bmj.png" caption="Figure 1: Save to zotero addon available for firefox and chrome makes it possible to easily add references from the browser to Zotero while capturing relevent metadata" >}}
 
 This captures it into my .bib file as below with all the correct formatting. Importantly, it requires almost zero edits afterwards to make sure the metadata is correct. Furthermore, it also downloads the pdf (useful later).
 
@@ -69,34 +71,34 @@ In essence the note taking process is 3 fold. Step 1 is taking direct notes from
 
 I would run the command `ivy-bibtex` which pulls up a list of my bibliography entries for me to select and choose from. I can pull up the PDF and to take notes on it I run the command `org-noter`.
 
-{{< figure src="/ox-hugo/ivybibtex.png" >}}
+{{< figure src="/ox-hugo/ivybibtex.png" caption="Figure 2: Calling ivy-bibtex opens a searchable window of all references. The snowflake icon shows whether a PDF is available to take notes on. Other fields can be shown if desired." >}}
 
 I can then run the command `org-noter-insert-precise-note` to add notes and populate the org notes buffer as I please. Generally I try and constrain this document to just the information that is in the document[^fn:4]. In essence its just to record whatever new information you have found in this document.
 
-{{< figure src="/ox-hugo/orgnoter.png" >}}
+{{< figure src="/ox-hugo/orgnoter.png" caption="Figure 3: Recolourised pdf on the left (for easier reading) and notes on the right." >}}
 
-{{< figure src="/ox-hugo/orgnoter2.png" >}}
+{{< figure src="/ox-hugo/orgnoter2.png" caption="Figure 4: Completed direct notes using mainly quotes. Org-noter makes it possible to link each heading to a specific point in the PDF making the PDF sync to what's unfolded on the right side." >}}
 
 
 ### Step 2: Reflective Notes {#step-2-reflective-notes}
 
 As stated earlier, this is a place for me to reflect on what I've learnt from reading this article. Linking to other points/topics if necessary.
 
-{{< figure src="/ox-hugo/reflectivenotes.png" >}}
+{{< figure src="/ox-hugo/reflectivenotes.png" caption="Figure 5: Reflective notes open on the left with direct notes open in the middle. On the far right side is the backlinks buffer which shows what other documents I've referenced the reflective notes in." >}}
 
 
 ### Step 3: Incorporation into the Topic Notes {#step-3-incorporation-into-the-topic-notes}
 
 I often write for the purpose of writing just literature notes. So these topic notes often just end up being prose summaries of the topic with multiple references and so forth. This note will likely be something you reference and restructure every now and then as you read and understand more about the topic.
 
-{{< figure src="/ox-hugo/topicnotes.png" >}}
+{{< figure src="/ox-hugo/topicnotes.png" caption="Figure 6: The notes on the topic where I cite different sources. You can have a read of these notes, but they're just for display purposes. Not near finished at all." >}}
 
 
 ### Step 4: Cool Graphs {#step-4-cool-graphs}
 
 Running `org-roam-ui-mode` will produce nice graphs of all my notes and allow me to filter out notes based on different parameters. Most importantly you can make nice graphs like this and even 3D graphs. I recommend taking a look at their [github page for more information](https://github.com/org-roam/org-roam-ui).
 
-{{< figure src="/ox-hugo/graph.png" >}}
+{{< figure src="/ox-hugo/graph.png" caption="Figure 7: A small part of the complete graph of all my notes showing only those relevant to clinical equipoise" >}}
 
 As you can imagine, I was under the conception that a graph of my notes and how they link to each other would provide some grand new novel ideas. I am yet to prove this correct and so the graphs for me provide no purpose other than looking nice.
 
