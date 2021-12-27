@@ -1,7 +1,7 @@
 +++
 title = "Academic Orgmode Workflow"
 date = 2021-12-25
-lastmod = 2021-12-27T05:14:25+08:00
+lastmod = 2021-12-27T11:30:20+08:00
 categories = ["Notetaking"]
 draft = false
 tags = ["Emacs", "Research", "Workflow"]
@@ -11,18 +11,18 @@ tags = ["Emacs", "Research", "Workflow"]
 
 One of my goals for next year (apart from writing more blog posts) is to also read more academic material and journal articles. In an effort to streamline the process of finding new articles[^fn:1], reading, notetaking and forming new ideas, I'm making an effort to write this blog in order to consolidate the process for me (while hopefully providing some value to you, the reader). This blog post will likely remain a work in progress and change with time. On another note, while my configuration is not yet public, I'm using what's recommended in the packages' respective readme pages.
 
-I preface this entry to also make the point that much of this workflow depends on Emacs. While I explain my workflow in such a way that it can be understood by someone not using Emacs (and perhaps even implemented in something easier to use like OneNote or Notion), I would like to point out that setting up Emacs on your machine and customising it is not covered.
+I preface this entry to also make the point that much of this workflow depends on Emacs. While I explain my workflow in such a way that it can be understood by someone not using Emacs (and perhaps even implemented in something easier to use like Obsidian, OneNote or Notion[^fn:2]), I would like to point out that setting up Emacs on your machine and customising it is not covered.
 
 
 ## Reference Management {#reference-management}
 
-For reference management I use Zotero. Its my preferred because of the way it is able to integrate with the rest of my workflow using better-bibtex[^fn:2]. This addon allows me to have a single file in which all of my bibliography entries can be stored and indexed.
+For reference management I use Zotero. Its my preferred because of the way it is able to integrate with the rest of my workflow using better-bibtex[^fn:3]. This addon allows me to have a single file in which all of my bibliography entries can be stored and indexed.
 
 The other benefit is the ability to clip websites easily using an extension or by sharing it to the zotero app on iPad or zoo for zotero app on Android. I previously was a fan of Mendeleey, until they removed support for their iPad app and brought in a paid model. Endnote is recommended by my university and I've used it a bit, but not enough for me to bother switching.
 
 For the purpose of this blog post I shall be looking at [this article on clinical equipoise in research](https://www.bmj.com/content/359/bmj.j5787). Capturing it requires me to click on the addon to add it to my zotero library.
 
-<a id="org8d83037"></a>
+<a id="org1f61765"></a>
 
 {{< figure src="/ox-hugo/bmj.png" caption="Figure 1: Save to zotero addon available for firefox and chrome makes it possible to easily add references from the browser to Zotero while capturing relevent metadata" >}}
 
@@ -53,7 +53,7 @@ This captures it into my .bib file as below with all the correct formatting. Imp
 
 ## Notetaking {#notetaking}
 
-For notetaking, I take notes on Emacs org-mode[^fn:3] and so the packages I use for notetaking I use include:
+For notetaking, I take notes on Emacs org-mode[^fn:4] and so the packages I use for notetaking I use include:
 
 Org-ref
 : referencing and managing my bibliography in Emacs
@@ -73,7 +73,7 @@ I would run the command `ivy-bibtex` which pulls up a list of my bibliography en
 
 {{< figure src="/ox-hugo/ivybibtex.png" caption="Figure 2: Calling ivy-bibtex opens a searchable window of all references. The snowflake icon shows whether a PDF is available to take notes on. Other fields can be shown if desired." >}}
 
-I can then run the command `org-noter-insert-precise-note` to add notes and populate the org notes buffer as I please. Generally I try and constrain this document to just the information that is in the document[^fn:4]. In essence its just to record whatever new information you have found in this document.
+I can then run the command `org-noter-insert-precise-note` to add notes and populate the org notes buffer as I please. Generally I try and constrain this document to just the information that is in the document[^fn:5]. In essence its just to record whatever new information you have found in this document.
 
 {{< figure src="/ox-hugo/orgnoter.png" caption="Figure 3: Recolourised pdf on the left (for easier reading) and notes on the right." >}}
 
@@ -119,6 +119,7 @@ Feel free to make use of whatever you can from this for your personal benefit. I
 -   [Academic Doom-Emacs Config by Sunny Hasija](https://github.com/sunnyhasija/Academic-Doom-Emacs-Config)
 
 [^fn:1]: Though I don't have a concrete way of doing this other than RSS feeds, subscriptions and search engines.
-[^fn:2]: Or even with word processors using an addon.
-[^fn:3]: I hope to write about why I use Emacs org-mode in the future
-[^fn:4]: However selecting what information is relevant is entirely dependent on your purpose for reading that article (which you must decide before reading it). In my case, I figured learning about clinical equipoise would be relevant when designing my own study in the future.
+[^fn:2]: From my personal experience I believe it is easiest to replicate this workflow using Obsidian. Its also far more user friendly and perhaps has more entry level features than what Emacs provides
+[^fn:3]: Or even with word processors using an addon.
+[^fn:4]: I hope to write about why I use Emacs org-mode in the future
+[^fn:5]: However selecting what information is relevant is entirely dependent on your purpose for reading that article (which you must decide before reading it). In my case, I figured learning about clinical equipoise would be relevant when designing my own study in the future.
