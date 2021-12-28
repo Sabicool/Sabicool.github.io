@@ -1,7 +1,7 @@
 +++
 title = "Academic Orgmode Workflow"
 date = 2021-12-25
-lastmod = 2021-12-28T12:30:46+08:00
+lastmod = 2021-12-28T12:55:06+08:00
 categories = ["Notetaking"]
 draft = false
 tags = ["Emacs", "Research", "Workflow"]
@@ -9,7 +9,7 @@ tags = ["Emacs", "Research", "Workflow"]
 
 ## Background {#background}
 
-One of my goals for next year (apart from writing more blog posts) is to also read more academic material and journal articles. In an effort to streamline the process of finding new articles[^fn:1], reading, notetaking and forming new ideas, I'm making an effort to write this blog in order to consolidate the process for me (while hopefully providing some value to you, the reader). This blog post will likely remain a work in progress and change with time. On another note, while my configuration is not yet public, I'm using what's recommended in the packages' respective readme pages.
+One of my goals for next year (apart from writing more blog posts) is to also read more academic material and journal articles. In an effort to streamline the process of finding new articles[^fn:1], reading, notetaking and forming new ideas, I'm making an effort to write this blog in order to consolidate the process for me (while hopefully providing some value to you, the reader). This blog post will likely remain a work in progress and change with time. On another note, while my configuration is not yet public, I'm using what's recommended in the packages' respective read-me pages.
 
 I preface this entry to also make the point that much of this workflow depends on Emacs. While I explain my workflow in such a way that it can be understood by someone not using Emacs (and perhaps even implemented in something easier to use like Obsidian, OneNote or Notion[^fn:2]), I would like to point out that setting up Emacs on your machine and customising it is not covered.
 
@@ -22,7 +22,7 @@ The other benefit is the ability to clip websites easily using an extension or b
 
 For the purpose of this blog post I shall be looking at [this article on clinical equipoise in research](https://www.bmj.com/content/359/bmj.j5787). Capturing it requires me to click on the add-on to add it to my Zotero library.
 
-<a id="orgbe720a9"></a>
+<a id="orgd668a83"></a>
 
 {{< figure src="/ox-hugo/bmj.png" caption="Figure 1: Save to Zotero add-on available for firefox and chrome makes it possible to easily add references from the browser to Zotero while capturing relevent metadata" >}}
 
