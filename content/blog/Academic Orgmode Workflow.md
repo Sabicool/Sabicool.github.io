@@ -1,7 +1,7 @@
 +++
 title = "Academic Orgmode Workflow"
 date = 2021-12-25
-lastmod = 2021-12-27T11:30:20+08:00
+lastmod = 2021-12-28T12:30:46+08:00
 categories = ["Notetaking"]
 draft = false
 tags = ["Emacs", "Research", "Workflow"]
@@ -16,17 +16,17 @@ I preface this entry to also make the point that much of this workflow depends o
 
 ## Reference Management {#reference-management}
 
-For reference management I use Zotero. Its my preferred because of the way it is able to integrate with the rest of my workflow using better-bibtex[^fn:3]. This addon allows me to have a single file in which all of my bibliography entries can be stored and indexed.
+For reference management I use Zotero. Its my preferred because of the way it is able to integrate with the rest of my workflow using better-bibtex[^fn:3]. This add-on allows me to have a single file in which all of my bibliography entries can be stored and indexed.
 
-The other benefit is the ability to clip websites easily using an extension or by sharing it to the zotero app on iPad or zoo for zotero app on Android. I previously was a fan of Mendeleey, until they removed support for their iPad app and brought in a paid model. Endnote is recommended by my university and I've used it a bit, but not enough for me to bother switching.
+The other benefit is the ability to clip websites easily using an extension or by sharing it to the Zotero app on iPad or zoo for Zotero app on Android. I previously was a fan of Mendeley, until they removed support for their iPad app and brought in a paid model. Endnote is recommended by my university and I've used it a bit, but not enough for me to bother switching.
 
-For the purpose of this blog post I shall be looking at [this article on clinical equipoise in research](https://www.bmj.com/content/359/bmj.j5787). Capturing it requires me to click on the addon to add it to my zotero library.
+For the purpose of this blog post I shall be looking at [this article on clinical equipoise in research](https://www.bmj.com/content/359/bmj.j5787). Capturing it requires me to click on the add-on to add it to my Zotero library.
 
-<a id="org1f61765"></a>
+<a id="orgbe720a9"></a>
 
-{{< figure src="/ox-hugo/bmj.png" caption="Figure 1: Save to zotero addon available for firefox and chrome makes it possible to easily add references from the browser to Zotero while capturing relevent metadata" >}}
+{{< figure src="/ox-hugo/bmj.png" caption="Figure 1: Save to Zotero add-on available for firefox and chrome makes it possible to easily add references from the browser to Zotero while capturing relevent metadata" >}}
 
-This captures it into my .bib file as below with all the correct formatting. Importantly, it requires almost zero edits afterwards to make sure the metadata is correct. Furthermore, it also downloads the pdf (useful later).
+This captures it into my .bib file as below with all the correct formatting. Importantly, it requires almost zero edits afterwards to make sure the metadata is correct. Furthermore, it also downloads the PDF (useful later).
 
 ```nil
 @article{heyConceptClinicalEquipoise2017,
@@ -75,7 +75,7 @@ I would run the command `ivy-bibtex` which pulls up a list of my bibliography en
 
 I can then run the command `org-noter-insert-precise-note` to add notes and populate the org notes buffer as I please. Generally I try and constrain this document to just the information that is in the document[^fn:5]. In essence its just to record whatever new information you have found in this document.
 
-{{< figure src="/ox-hugo/orgnoter.png" caption="Figure 3: Recolourised pdf on the left (for easier reading) and notes on the right." >}}
+{{< figure src="/ox-hugo/orgnoter.png" caption="Figure 3: Re-colourised PDF on the left (for easier reading) and notes on the right." >}}
 
 {{< figure src="/ox-hugo/orgnoter2.png" caption="Figure 4: Completed direct notes using mainly quotes. Org-noter makes it possible to link each heading to a specific point in the PDF making the PDF sync to what's unfolded on the right side." >}}
 
@@ -120,6 +120,6 @@ Feel free to make use of whatever you can from this for your personal benefit. I
 
 [^fn:1]: Though I don't have a concrete way of doing this other than RSS feeds, subscriptions and search engines.
 [^fn:2]: From my personal experience I believe it is easiest to replicate this workflow using Obsidian. Its also far more user friendly and perhaps has more entry level features than what Emacs provides
-[^fn:3]: Or even with word processors using an addon.
+[^fn:3]: Or even with word processors using an add-on.
 [^fn:4]: I hope to write about why I use Emacs org-mode in the future
 [^fn:5]: However selecting what information is relevant is entirely dependent on your purpose for reading that article (which you must decide before reading it). In my case, I figured learning about clinical equipoise would be relevant when designing my own study in the future.
