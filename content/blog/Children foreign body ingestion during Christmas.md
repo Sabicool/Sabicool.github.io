@@ -1,7 +1,8 @@
 +++
 title = "Children foreign body consumption during Christmas"
+author = ["Sabiqul Hoque"]
 date = 2021-12-31
-lastmod = 2022-01-02T08:19:03+08:00
+lastmod = 2022-01-17T18:33:27+08:00
 categories = ["Medicine"]
 draft = false
 tags = ["Interesting", "Miscellaneous"]
@@ -11,11 +12,11 @@ Came across [this journal article on paediatric foreign body ingestion](https://
 
 > An increase in CFBI [Christmas foreign body ingestion] occurred in the 7-week block surrounding Christmas, with peak ingestion rates ... noted in the days prior to Christmas ...
 
-<a id="orgc313bcd"></a>
+<a id="orgee253d1"></a>
 
 {{< figure src="/ox-hugo/screenshot-20220102-074525.png" caption="Figure 1: Wow much cool graph" >}}
 
-<a id="org754f479"></a>
+<a id="org4199be8"></a>
 
 {{< figure src="/ox-hugo/screenshot-20220102-080038.png" caption="Figure 2: Just to prove the point a bit more" >}}
 
@@ -26,7 +27,9 @@ The main limitation of this study was that they only used data from EDs only pot
 
 ## Concluding Remarks {#concluding-remarks}
 
-Main source was just the main paper: <https://doi.org/10.1177/0009922819829036>. Had a look at oxford handbook of clinical specialties as well.
+Main source was just the main paper: <https://doi.org/10.1177/0009922819829036>.
+
+1.  Reeves, P. T., Krishnamurthy, J., Pasman, E. A., & Nylund, C. M. (). Pediatric Ingestions of Christmas Past, Present, and Future: A Review of Holiday Trends, 1997 to 2015. , 58(5), 571–577. <http://dx.doi.org/10.1177/0009922819829036>
 
 This was a much shorter and light hearted blog post. That being said, with the completion of 2021[^fn:1], my upcoming posts should be longer and more reflective.
 

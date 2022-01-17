@@ -1,7 +1,8 @@
 +++
 title = "Academic Orgmode Workflow"
+author = ["Sabiqul Hoque"]
 date = 2021-12-25
-lastmod = 2021-12-28T12:55:06+08:00
+lastmod = 2022-01-17T17:48:12+08:00
 categories = ["Notetaking"]
 draft = false
 tags = ["Emacs", "Research", "Workflow"]
@@ -20,9 +21,9 @@ For reference management I use Zotero. Its my preferred because of the way it is
 
 The other benefit is the ability to clip websites easily using an extension or by sharing it to the Zotero app on iPad or zoo for Zotero app on Android. I previously was a fan of Mendeley, until they removed support for their iPad app and brought in a paid model. Endnote is recommended by my university and I've used it a bit, but not enough for me to bother switching.
 
-For the purpose of this blog post I shall be looking at [this article on clinical equipoise in research](https://www.bmj.com/content/359/bmj.j5787). Capturing it requires me to click on the add-on to add it to my Zotero library.
+For the purpose of this blog post I shall be looking at <see;&heyConceptClinicalEquipoise2017;for examples>. Capturing it requires me to click on the add-on to add it to my Zotero library.
 
-<a id="orgd668a83"></a>
+<a id="org4fbaa69"></a>
 
 {{< figure src="/ox-hugo/bmj.png" caption="Figure 1: Save to Zotero add-on available for firefox and chrome makes it possible to easily add references from the browser to Zotero while capturing relevent metadata" >}}
 
