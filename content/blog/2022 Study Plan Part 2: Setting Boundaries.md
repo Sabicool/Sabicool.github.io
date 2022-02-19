@@ -2,9 +2,9 @@
 title = "2022 Study Plan Part 2: Setting Boundaries"
 author = ["Sabiqul Hoque"]
 date = 2022-02-19
-lastmod = 2022-02-19T23:09:47+08:00
+lastmod = 2022-02-19T23:18:31+08:00
 categories = ["Productivity"]
-draft = true
+draft = false
 tags = ["Study", "Workflow"]
 +++
 
