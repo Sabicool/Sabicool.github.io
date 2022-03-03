@@ -2,10 +2,10 @@
 title = "Introduction to Bayes' Theorem"
 author = ["Sabiqul Hoque"]
 date = 2022-02-28
-lastmod = 2022-03-04T01:15:28+08:00
+lastmod = 2022-03-04T01:24:20+08:00
 categories = ["mathematics"]
-draft = true
-tags = ["Graphs"]
+draft = false
+tags = ["Interesting"]
 +++
 
 So I got a rapid antigen test recently and I took a look at the instructions. It gave a table showing how they calculated its sensitivity and specificity.
