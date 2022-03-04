@@ -2,13 +2,22 @@
 title = "Introduction to Bayes' Theorem"
 author = ["Sabiqul Hoque"]
 date = 2022-02-28
-lastmod = 2022-03-04T01:24:20+08:00
-categories = ["mathematics"]
+lastmod = 2022-03-04T16:30:33+08:00
+categories = ["Mathematics"]
 draft = false
 tags = ["Interesting"]
 +++
 
 So I got a rapid antigen test recently and I took a look at the instructions. It gave a table showing how they calculated its sensitivity and specificity.
+
+<a id="orgb5488ca"></a>
+
+{{< figure src="/ox-hugo/rattable.jpg" caption="Figure 1: Photo of the table that was in the information sheet that came in the box" >}}
+
+<div class="table-caption">
+  <span class="table-number">Table 1</span>:
+  Table of clinical performance of the SARS-CoV-2 Antigen Rapid Test as on the information sheet (see Fig 1.).
+</div>
 
 |                 | PCR confirmed sample number | Correct identified |  Rate |
 |-----------------|-----------------------------|--------------------|-------|
