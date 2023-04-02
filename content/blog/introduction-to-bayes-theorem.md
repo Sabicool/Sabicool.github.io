@@ -2,7 +2,7 @@
 title = "Introduction to Bayes' Theorem"
 author = ["Sabiqul Hoque"]
 date = 2022-02-28
-lastmod = 2022-03-04T16:30:33+08:00
+lastmod = 2023-02-28T22:21:51+08:00
 categories = ["Mathematics"]
 draft = false
 tags = ["Interesting"]
@@ -10,20 +10,20 @@ tags = ["Interesting"]
 
 So I got a rapid antigen test recently and I took a look at the instructions. It gave a table showing how they calculated its sensitivity and specificity.
 
-<a id="orgb5488ca"></a>
+<a id="figure--Clinical Performance of the Rapid Antigen Test"></a>
 
-{{< figure src="/ox-hugo/rattable.jpg" caption="Figure 1: Photo of the table that was in the information sheet that came in the box" >}}
+{{< figure src="/ox-hugo/rattable.jpg" caption="<span class=\"figure-number\">Figure 1: </span>Photo of the table that was in the information sheet that came in the box" >}}
 
 <div class="table-caption">
-  <span class="table-number">Table 1</span>:
+  <span class="table-number">Table 1:</span>
   Table of clinical performance of the SARS-CoV-2 Antigen Rapid Test as on the information sheet (see Fig 1.).
 </div>
 
-|                 | PCR confirmed sample number | Correct identified |  Rate |
+|                 | PCR confirmed sample number | Correct identified | Rate  |
 |-----------------|-----------------------------|--------------------|-------|
-| Positive Sample |                         341 |                327 | 95.9% |
-| Negative Sample |                         500 |                497 | 99.4% |
-| Total           |                         841 |                824 | 98.0% |
+| Positive Sample | 341                         | 327                | 95.9% |
+| Negative Sample | 500                         | 497                | 99.4% |
+| Total           | 841                         | 824                | 98.0% |
 
 Which all in all makes sense. Sensitivity is defined as true positives over all cases with the outcome (true positives and false negatives) and hence it would be \\(\frac{327}{341}\approx95.9\\%\\). Similarly specificity and accuracy can be calculated to be 99.4% and 98.0% respectively using the data from the table.
 
@@ -101,6 +101,6 @@ In essence he further states that your prior \\(P(H)\\) might even be 0 if you'v
 ## References and Useful Links {#references-and-useful-links}
 
 Derek's video introduced me to the topic which was quite nice
-{{< youtube R13BD8qKeTg >}}
+{{&lt; youtube R13BD8qKeTg &gt;}}
 
 As you can imagine Bayes' Theorem holds a place in medicine and I would argue that it is intrinsically used my clinicans when generating differentials. As such [statmed.org](https://statmed.org/) exists. In its own words, it uses Bayesian inference to formulate differential diagnoses.

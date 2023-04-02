@@ -2,7 +2,7 @@
 title = "Children foreign body consumption during Christmas"
 author = ["Sabiqul Hoque"]
 date = 2021-12-31
-lastmod = 2022-01-17T18:33:27+08:00
+lastmod = 2023-02-28T22:21:25+08:00
 categories = ["Medicine"]
 draft = false
 tags = ["Interesting", "Miscellaneous"]
@@ -12,13 +12,13 @@ Came across [this journal article on paediatric foreign body ingestion](https://
 
 > An increase in CFBI [Christmas foreign body ingestion] occurred in the 7-week block surrounding Christmas, with peak ingestion rates ... noted in the days prior to Christmas ...
 
-<a id="orgee253d1"></a>
+<a id="figure--Christmas foreign body ingestions by children, seasonality histogram"></a>
 
-{{< figure src="/ox-hugo/screenshot-20220102-074525.png" caption="Figure 1: Wow much cool graph" >}}
+{{< figure src="/ox-hugo/screenshot-20220102-074525.png" caption="<span class=\"figure-number\">Figure 1: </span>Wow much cool graph" >}}
 
-<a id="org4199be8"></a>
+<a id="figure--CFBIs by children, monthly seasonality plot"></a>
 
-{{< figure src="/ox-hugo/screenshot-20220102-080038.png" caption="Figure 2: Just to prove the point a bit more" >}}
+{{< figure src="/ox-hugo/screenshot-20220102-080038.png" caption="<span class=\"figure-number\">Figure 2: </span>Just to prove the point a bit more" >}}
 
 Among the most commonly ingested were non-electric Christmas decorations such as ornaments, bells, candles, snow globes etc.
 
@@ -29,7 +29,7 @@ The main limitation of this study was that they only used data from EDs only pot
 
 Main source was just the main paper: <https://doi.org/10.1177/0009922819829036>.
 
-1.  Reeves, P. T., Krishnamurthy, J., Pasman, E. A., & Nylund, C. M. (). Pediatric Ingestions of Christmas Past, Present, and Future: A Review of Holiday Trends, 1997 to 2015. , 58(5), 571–577. <http://dx.doi.org/10.1177/0009922819829036>
+1.  Reeves, P. T., Krishnamurthy, J., Pasman, E. A., &amp; Nylund, C. M. (). Pediatric Ingestions of Christmas Past, Present, and Future: A Review of Holiday Trends, 1997 to 2015. , 58(5), 571–577. <http://dx.doi.org/10.1177/0009922819829036>
 
 This was a much shorter and light hearted blog post. That being said, with the completion of 2021[^fn:1], my upcoming posts should be longer and more reflective.
 

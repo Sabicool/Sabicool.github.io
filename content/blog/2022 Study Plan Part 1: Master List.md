@@ -2,7 +2,7 @@
 title = "2022 Study Plan Part 1: Master List"
 author = ["Sabiqul Hoque"]
 date = 2022-01-16
-lastmod = 2022-02-19T23:15:53+08:00
+lastmod = 2023-04-02T01:19:01+08:00
 categories = ["Productivity"]
 draft = false
 tags = ["Study", "Workflow", "Template"]
@@ -26,17 +26,16 @@ What I'd like to do this year is actually have a list of all the LOs and PBLs, w
 
 I have also set something up like this in notion before. The only problem with that it had far too many features to make it useful. It combined a master todo list, areas and goals list with my notes on lectures, LOs and entire PBLs. It became too large to work through and too cumbersome very quickly.
 
-<a id="org9376352"></a>
+<a id="figure--My notion setup for notion"></a>
 
-{{< figure src="/ox-hugo/oldstudynotion.png" caption="Figure 1: This was the old setup for reference. From the left to the right the columns are: unit, name, whether flashcards were created, completion status of the relevant tasks, strength regarding that topic, how many days ago it was reviewed and the next task for that topic. There were too many features for this method to be sustainable." >}}
+{{< figure src="/ox-hugo/oldstudynotion.png" caption="<span class=\"figure-number\">Figure 1: </span>This was the old setup for reference. From the left to the right the columns are: unit, name, whether flashcards were created, completion status of the relevant tasks, strength regarding that topic, how many days ago it was reviewed and the next task for that topic. There were too many features for this method to be sustainable." >}}
 
 The setup will involve two databases, one with a list of all the LOs and one with a list of all the PBLs.
 
 <div class="ox-hugo-table sane-table">
-<div></div>
 <div class="table-caption">
-  <span class="table-number">Table 1</span>:
-  Table with verbatim CSS
+  <span class="table-number">Table 1:</span>
+  LO database setup
 </div>
 
 | LO                        | PBL         | Strength | Last Reviewed |
@@ -47,6 +46,11 @@ The setup will involve two databases, one with a list of all the LOs and one wit
 </div>
 
 The other would be a list of PBLs
+
+<div class="table-caption">
+  <span class="table-number">Table 2:</span>
+  PBL database setup
+</div>
 
 | PBL     | Block            | Last Reviewed | Progress  |
 |---------|------------------|---------------|-----------|
@@ -60,15 +64,15 @@ Here the formulas would show the date of the most recently reviewed LO and the a
 
 I've made the basic layout of the notion setup public and its available at [https://sabsblogstudy.notion.site/](https://sabsblogstudy.notion.site/) for you to duplicate.
 
-<a id="orgd0734dd"></a>
+<a id="figure--Notion-LOs-Database"></a>
 
-{{< figure src="/ox-hugo/LOs.png" caption="Figure 2: The LOs database. From left to right the columns are strength (i.e. how well I know the topic), followed by the PBL column which shows the broader topic it is connected to, followed by the name of the LO in question, when I last studied it and finally when I plan to study it again." >}}
+{{< figure src="/ox-hugo/LOs.png" caption="<span class=\"figure-number\">Figure 2: </span>The LOs database. From left to right the columns are strength (i.e. how well I know the topic), followed by the PBL column which shows the broader topic it is connected to, followed by the name of the LO in question, when I last studied it and finally when I plan to study it again." >}}
 
 Since each row of the LO database is a page, notes can be added to each LO if I so wish. At this moment before the semester has started they are all empty but it is a proof of concept for now.
 
-<a id="orgd71fda4"></a>
+<a id="figure--Notion-PBL-Database"></a>
 
-{{< figure src="/ox-hugo/PBLs.png" caption="Figure 3: The PBLs database. From left to right the columns are the PBL in question, what block it is part of, the list of LOs, the earliest date of the LOs studied and the progress in completing that PBL (based on how many LOs are at their full strength)" >}}
+{{< figure src="/ox-hugo/PBLs.png" caption="<span class=\"figure-number\">Figure 1: </span>The PBLs database. From left to right the columns are the PBL in question, what block it is part of, the list of LOs, the earliest date of the LOs studied and the progress in completing that PBL (based on how many LOs are at their full strength)" >}}
 
 
 ## Formulas {#formulas}
@@ -78,9 +82,8 @@ The user inputs a strength for the LO using the coloured circle dropdown menu (s
 ```nil
 if(prop("Strength") == "🔴", .2, if(prop("Strength") == "🟠", .4, if(prop("Strength") == "🟡", .6, if(prop("Strength") == "🟢", .8, if(prop("Strength") == "🟣", 1, 0)))))
 ```
-
 <div class="src-block-caption">
-  <span class="src-block-number">Code Snippet 1</span>:
+  <span class="src-block-number">Code Snippet 1:</span>
   Sorry about it being 1 line, its not my fault notion formulas don't allow multi-line input
 </div>
 
@@ -97,9 +100,9 @@ if(not empty(prop("Complete Value")) and not empty(prop("Maximum Strength")), sl
 
 Evidently you can add whatever you want to make it look nicer, but it remains as a proof of concept. A quick look at pinterest or reddit for notion setups will show a well designed and aesthetic dashboard. I'm not going to be using notion for a large number of things so I've stuck with a _fairly_ minimal setup.
 
-<a id="org3cf1bb0"></a>
+<a id="figure--Notion-PBL-Database"></a>
 
-{{< figure src="/ox-hugo/notionsetupyr3.png" caption="Figure 4: My relatively minimal notion dashboard for year 3. The table at the bottom groups by block first and then when I last studied that LO." >}}
+{{< figure src="/ox-hugo/notionsetupyr3.png" caption="<span class=\"figure-number\">Figure 1: </span>My relatively minimal notion dashboard for year 3. The table at the bottom groups by block first and then when I last studied that LO." >}}
 
 
 ## Update 19 February {#update-19-february}
@@ -110,8 +113,8 @@ Made a few changes and added a formula that calculates the next date to review a
 dateAdd(prop("Last Studied"), if(prop("Strength") == "🔴", 1, if(prop("Strength") == "🟠", 3, if(prop("Strength") == "🟡", 6, if(prop("Strength") == "🟢", 13, if(prop("Strength") == "🟣", 20, 0))))), "days")
 ```
 
-<a id="orga9e264c"></a>
+<a id="figure--Notion-Update"></a>
 
-{{< figure src="/ox-hugo/screenshot-20220219-231359.png" caption="Figure 5: Updated notion home page showing the due and overdue LOs to study on the right side as well as my progress through each PBS and some weekly tasks." >}}
+{{< figure src="/ox-hugo/screenshot-20220219-231359.png" caption="<span class=\"figure-number\">Figure 1: </span>Updated notion home page showing the due and overdue LOs to study on the right side as well as my progress through each PBS and some weekly tasks." >}}
 
-[^fn:1]: To see my year 2 semester 1 google sheets [see here](https://docs.google.com/spreadsheets/d/e/2PACX-1vQa8zHZeeOMM3oRqqtUe1okm5rckCrstfYty510t5Dd%5FKFvItEvVnYallPG1oSiACOCGzguSzVpu9UX/pubhtml#)
+[^fn:1]: To see my year 2 semester 1 google sheets [see here](https://docs.google.com/spreadsheets/d/e/2PACX-1vQa8zHZeeOMM3oRqqtUe1okm5rckCrstfYty510t5Dd_KFvItEvVnYallPG1oSiACOCGzguSzVpu9UX/pubhtml#)
