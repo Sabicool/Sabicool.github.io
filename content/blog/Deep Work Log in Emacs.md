@@ -2,9 +2,9 @@
 title = "Deep Work Log in Emacs"
 author = ["Sabiqul Hoque"]
 date = 2023-09-13
-lastmod = 2023-09-14T14:03:10+08:00
+lastmod = 2023-09-14T14:28:50+08:00
 categories = ["Productivity"]
-draft = true
+draft = false
 tags = ["Emacs", "Workflow"]
 +++
 
