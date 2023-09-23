@@ -2,9 +2,9 @@
 title = "Adding textbook chapters to GTD system in Emacs"
 author = ["Sabiqul Hoque"]
 date = 2023-09-23
-lastmod = 2023-09-24T00:16:41+08:00
+lastmod = 2023-09-24T00:19:17+08:00
 categories = ["Productivity"]
-draft = true
+draft = false
 tags = ["Emacs", "Workflow"]
 +++
 
